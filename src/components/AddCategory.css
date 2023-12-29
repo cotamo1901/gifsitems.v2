@@ -1,0 +1,16 @@
+.form-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.form-placeholder {
+  width: 200px;
+  height: 28px;
+  border-radius: 8px;
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+.form-placeholder:hover{
+    border: solid 2px #A94837;
+}

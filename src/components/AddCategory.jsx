@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import './../styles/global.css'
+import './AddCategory.css'
 export const AddCategory = ({ onNewCategory }) => {
   const [inputValue, setInputValue] = useState([]);
 
@@ -15,8 +16,9 @@ export const AddCategory = ({ onNewCategory }) => {
   };
 
   return (
-    <form onSubmit={onSubmit}>
-      <input
+    <form onSubmit={onSubmit} className="form-container">
+      
+      <input className="form-placeholder"
         type="text"
         placeholder="Search...."
         value={inputValue}

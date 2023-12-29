@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { AddCategory } from "./components/AddCategory";
-import { GifGrid } from "./components/GifGrid";
+import { AddCategory,GifGrid } from "./components";
+import Header from "./components/Header";
+
 
 export const GifExpert = () => {
   const [categories, setCategories] = useState([" "]);
@@ -14,6 +15,7 @@ export const GifExpert = () => {
   return (
     <>
       {/* titulo */}
+      <Header/>
       <h1>GifExpert</h1>
       {/* Input */}
       <AddCategory onNewCategory={(value) => onAddCategory(value)} />

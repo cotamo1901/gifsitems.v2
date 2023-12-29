@@ -1,0 +1,21 @@
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    /*Con este font-size, hacemos que 1rem sea igual  a 10px */
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+  }
+  body {
+    background-color:#121212;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: normal;
+   
+  }

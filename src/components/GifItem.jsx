@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 export const GifItem = ({ title, url }) => {
   console.log(title, url);
 
@@ -10,3 +11,18 @@ export const GifItem = ({ title, url }) => {
     </>
   );
 };
+
+
+GifItem.propTypes={
+
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired
+
+}
+/* Tarea
+1. Añadir PropTypes
+a. ti tle obligatorio
+b. url obligatorio
+2. Evaluar el snapshot
+
+*/
